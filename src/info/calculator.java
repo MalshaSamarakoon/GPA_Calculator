@@ -106,18 +106,17 @@ public class calculator extends javax.swing.JFrame {
         String regno;
         
            regno=regfield.getText();
-         
            
-            if(regno.equals("") ){
+   
+           
+            if(regno.startsWith("uwu")); {
                  
                 register m1 = new register();
                 m1.setVisible(true);
                 this.dispose();  
-            } 
+    }  
             
-            else{
-                
-            }
+           
     }//GEN-LAST:event_okbutActionPerformed
 
     private void regfieldActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_regfieldActionPerformed
